@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-200: #1A1D21;
+  --color-dark-300: #131619;
+  --color-dark-400: #0D0F10;
+  --color-green-500: #24AE7C;
+}
+
+body {
+  background-color: var(--color-dark-300);
+  color: rgb(241 245 249);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
